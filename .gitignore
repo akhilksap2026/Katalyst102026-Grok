@@ -3,3 +3,18 @@ node_modules
 data/store.json
 next-env.d.ts
 *.tsbuildinfo
+
+# env & build artifacts
+.env
+.env*.local
+dist/
+*.zip
+# Replit / agent files
+.replit
+replit.nix
+.replit_integration_files/
+.agents/
+attached_assets/
+# local db data
+pgdata/
+scratch/
